@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Forms</title>
+</head>
+<body>
+        <h1>Forms </h1>
+
+        <form >
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" placeholder="Enter your first Name" >
+                <br><br>
+
+                <label for="lastNmae">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" placeholder="Enter your Last Name" >
+                <br><br>
+
+                <label for="title">Title:</label>
+
+                <input type="radio" name="title" id="Male">
+                <label for="Male">Male</label>
+
+                <input type="radio" name="title" id="Female">
+                <label for="Female">Female</label>
+
+                <input type="radio" name="title" id="Others">
+                <label for="Others">Others</label>
+
+                <label for="Miss"></label>
+                <br><br>
+
+                <label for="payment">Payment:</label>
+                        <select name="" id="payment">
+                                <option value="visa"> Visa</option>
+                                <option value="rupay">Rupay</option>
+                                <option value="Master Card">Master Card</option>
+                        </select>
+                <br> <br>
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Enter your email" >
+                <br><br>
+
+                <label for="date">Birthday</label>
+                <input type="date" name="birthday" id="birthday" min="2000-01-01" >
+                <br><br>
+
+                <label for="quantity">Quantity:</label>
+                <input type="number" name="quantity" value="1" id="quantity" min="0" max="99">
+                <br><br>
+                
+                <label for="phone">Phone#:</label>
+                <input type="tel" name="phone" id="phone">
+                <br><br>
+
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" maxlength="8" > Max 12 Characters
+                <br><br>
+
+                <label for="Range">Rate us:</label>1
+                <input type="range" name="range" id="Range" step="25" value="50" >
+                <br><br>
+
+                <label for="subscribe">subscribe</label>
+                <input type="checkbox" name="subscribe" id="subscribe">
+                <br><br>
+
+                <label for= "Uploaded file">Upload a file:</label>
+                <input type="file" name="File updated" id="Uploaded file" accept=".txt" >
+                <br><br>
+
+                <input type="reset" name="reset" id="reset">
+                <br><br>
+
+                <input type="submit" name="" id="submit">
+                <br><br>
+
+        </form>
+        
+</body>
+</html>
